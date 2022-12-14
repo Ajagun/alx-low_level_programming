@@ -1,6 +1,6 @@
-#iclude <stdlib.h>
+#iclude < stdlib.h >
 #include <time.h>
-#iclude <stdio.h>
+#iclude < stdio.h >
 
 /**
  *main - prints the last digit of the random
@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-  int n;
+int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
