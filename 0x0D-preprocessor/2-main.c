@@ -1,6 +1,11 @@
 #include <stdio.h>
-int main(int argc, char *argv[])
+
+/**
+ * main - prints the source file
+ * Return: returns 0 always
+ */
+int main()
 {
-printf("%s\n", argv[0]);
-return 0;
+printf("%s", __FILE__);
+return (0);
 }
