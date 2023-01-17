@@ -4,8 +4,9 @@
 * main - prints the source file
 * Return: returns 0 always
 */
+
 int main(void)
 {
-printf("%s", __FILE__);
+printf("%s", _FILE_);
 return (0);
 }
